@@ -2,7 +2,7 @@ import "./Robo.css";
 
 import { motion } from "framer-motion";
 
-import { useFollowPointer } from "./use-Follow-Pointer";
+import { useFollowPointer } from "./use-follow-pointer";
 import { useRef } from "react";
 
 import angel from "../../img/angel.png";
