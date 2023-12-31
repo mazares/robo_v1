@@ -1,0 +1,58 @@
+.robo {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.robo-status,
+.eyes,
+.puke {
+  position: absolute;
+  top: 0;
+  height: 150px;
+  width: 150px;
+}
+
+.robo-status {
+  z-index: 3;
+}
+
+.eyes {
+  z-index: 4;
+  overflow: hidden;
+}
+
+.puke {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.skull {
+  position: absolute;
+  z-index: 2;
+}
+
+.lids {
+  top: 0;
+  position: absolute;
+  z-index: 5;
+  height: 150px;
+  width: 150px;
+}
+
+.lids-open,
+.lids-closed {
+  position: absolute;
+}
+
+.eyes img,
+.skull img,
+.jaw img {
+  width: 100%;
+}
+
+.jaw {
+  position: absolute;
+  z-index: 0;
+}
